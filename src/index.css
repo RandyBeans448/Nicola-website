@@ -47,6 +47,10 @@ code {
   padding-right: 0.05em;
 }
 
+.font-page-button {
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -477,5 +481,33 @@ width: 70%;
     width: 46vh;
     padding: 0.1vh;
   }
+  
+  .slider {
+    /* position: relative;
+    top: 20vh; */
+    margin: 0 auto;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-image {
+    width: 50vh;
+  }
+  
+
+  .contact-p {
+    position: relative;
+    top: 50;
+    margin: 0 auto;
+    width: 60vh;
+  }
+
+  .contact-image-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
   
 }

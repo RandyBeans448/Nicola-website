@@ -13,7 +13,7 @@ export default function Contact() {
       </div>
       <div>
         <p className="contact-p">Email: nicola.nicholas@btinternet.com</p>
-        <p className="contact-p">Number: 07711111111</p>
+        <p className="contact-p">Number: 07712253008</p>
       </div>
       </div>
     </div>

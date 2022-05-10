@@ -29,7 +29,10 @@ export default function About() {
             Butchers.
           </p>
         </div>
+        <div className="slider-container">
           <Slider slides={SliderData}/>
+        </div>
+       
       </div>
     </div>
     </div>

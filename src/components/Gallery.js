@@ -141,12 +141,6 @@ export default function Galley() {
   return (
     <div>
       <Header />
-      {/* <div>
-        <h1 className="">GALLERIES</h1>
-      </div> */}
-      {/* <div className="gallery-text-wrapper">
-        <h3 className="gallery-text-title">Gallery</h3>
-        </div> */}
       <div className="button-wrapper">
         <p className="button-break">|</p>
         <button  className={national ? 'gallery-button-active' : 'gallery-button'} onClick={() => handleClick("national")}>National Exhibitions</button>

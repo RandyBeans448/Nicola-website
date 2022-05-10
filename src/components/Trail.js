@@ -23,16 +23,3 @@ export default function Trail ({ open, children }) {
   )
 }
 
-// export default function App() {
-//   const [open, set] = useState(true)
-//   return (
-//     <div className={styles.container} onClick={() => set(state => !state)}>
-//       <Trail open={open}>
-//         <span>Lorem</span>
-//         <span>Ipsum</span>
-//         <span>Dolor</span>
-//         <span>Sit</span>
-//       </Trail>
-//     </div>
-//   )
-// }

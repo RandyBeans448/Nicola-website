@@ -34,13 +34,6 @@ export default function FrontPage() {
 
   return (
     <div>
-      {/* <div className="front-page-wrapper"></div> */}
-             {/* <div className="container" onClick={() => set(state => !state)}>
-      <Trail open={open}>
-        <span>Nicola</span>
-        <span>Nicholas.</span>
-      </Trail>
-    </div> */}
       <BackgroundSlider
         images={[
           image1,
@@ -59,10 +52,8 @@ export default function FrontPage() {
       <div className="front-page-container">
         <ThemeProvider theme={theme}>
           <h1 className="front-page-title">Nicola Nicholas</h1>
-
-          <Link to={"/about"}>
-            <Button color="neutral" variant="outlined" size="large">
-              {" "}
+          <Link className="font-page-button" to={"/about"}>
+            <Button  color="neutral" variant="outlined" size="large">
               Enter site
             </Button>
           </Link>
